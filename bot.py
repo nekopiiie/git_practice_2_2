@@ -23,7 +23,7 @@ def check_callback_data(callback):
             btn = types.KeyboardButton(text='Подворотни Санкт-Петербурга')
             btn1 = types.KeyboardButton(text='Здесь был Брат')
             btn2 = types.KeyboardButton(text='Санкт-Петербург Достоевского')
-            btn3 = types.KeyboardButton(text='В Питере - жить')
+            btn3 = types.KeyboardButton(text='Хочу как в рилсах')
             btn4 = types.KeyboardButton(text='В Питере - пить')
             btn5 = types.KeyboardButton(text='Вернуться в меню')
             marcup.add(btn, btn1,btn2,btn3,btn4,btn5)
@@ -95,8 +95,8 @@ def get_text(message):
         marcup.add(btn, btn1, btn2, btn3, btn4, btn5, btn6)
         bot.send_message(message.chat.id, 'Выбери место, о котором хочешь узнать подробнее', reply_markup=marcup)
 
-    elif message.text == 'В Питере - жить':
-        bot.send_photo(message.chat.id,r'https://psv4.userapi.com/c909218/u537061732/docs/d32/79390d012ccf/5.jpg?extra=mmCp_7_3uFrHNAtu4Q2d2fYj57Z0-8JfepIe0MhJ4g1jWkQHYSnH1-DzBYny6fTk33p79vnROtzxmH1rB2eH4s4L0uj4oTNsPYqWiLhjTOeFxfwe8yJiNjRqJEQnQXpOyxX2ZSt_iAP68hETx9-v0Ak','Добро пожаловать в маршрут "В Питере - жить", где каждый шаг открывает новую страницу культурной жизни Санкт-Петербурга, предназначенный для молодых и творческих личностей, жаждущих вдохновения и новых впечатлений.')
+    elif message.text == 'Хочу как в рилсах':
+        bot.send_photo(message.chat.id,r'https://psv4.userapi.com/c909218/u537061732/docs/d32/79390d012ccf/5.jpg?extra=mmCp_7_3uFrHNAtu4Q2d2fYj57Z0-8JfepIe0MhJ4g1jWkQHYSnH1-DzBYny6fTk33p79vnROtzxmH1rB2eH4s4L0uj4oTNsPYqWiLhjTOeFxfwe8yJiNjRqJEQnQXpOyxX2ZSt_iAP68hETx9-v0Ak','Добро пожаловать в маршрут "Хочу как в рилсах", где каждый шаг открывает новую страницу культурной жизни Санкт-Петербурга, предназначенный для молодых и творческих личностей, жаждущих вдохновения и новых впечатлений.')
         marcup = types.ReplyKeyboardMarkup(resize_keyboard=True)
         btn = types.KeyboardButton(text='Бертгольд центр')
         btn1 = types.KeyboardButton(text='Кафе Aster')
@@ -121,7 +121,7 @@ def get_text(message):
         btn = types.KeyboardButton(text='Подворотни Санкт-Петербурга')
         btn1 = types.KeyboardButton(text='Здесь был Брат')
         btn2 = types.KeyboardButton(text='Санкт-Петербург Достоевского')
-        btn3 = types.KeyboardButton(text='В Питере - жить')
+        btn3 = types.KeyboardButton(text='Хочу как в рилсах')
         btn4 = types.KeyboardButton(text='В Питере - пить')
         btn5 = types.KeyboardButton(text='Вернуться в меню')
         marcup.add(btn, btn1, btn2, btn3, btn4, btn5)
@@ -174,7 +174,7 @@ def get_text(message):
     elif message.text == 'Назад к маршруту 4':
         bot.send_photo(message.chat.id,
                        r'https://psv4.userapi.com/c909218/u537061732/docs/d32/79390d012ccf/5.jpg?extra=mmCp_7_3uFrHNAtu4Q2d2fYj57Z0-8JfepIe0MhJ4g1jWkQHYSnH1-DzBYny6fTk33p79vnROtzxmH1rB2eH4s4L0uj4oTNsPYqWiLhjTOeFxfwe8yJiNjRqJEQnQXpOyxX2ZSt_iAP68hETx9-v0Ak',
-                       'Добро пожаловать в маршрут "В Питере - жить", где каждый шаг открывает новую страницу культурной жизни Санкт-Петербурга, предназначенный для молодых и творческих личностей, жаждущих вдохновения и новых впечатлений.')
+                       'Добро пожаловать в маршрут "Хочу как в рилсах", где каждый шаг открывает новую страницу культурной жизни Санкт-Петербурга, предназначенный для молодых и творческих личностей, жаждущих вдохновения и новых впечатлений.')
         marcup = types.ReplyKeyboardMarkup(resize_keyboard=True)
         btn = types.KeyboardButton(text='Бертгольд центр')
         btn1 = types.KeyboardButton(text='Кафе Aster')
